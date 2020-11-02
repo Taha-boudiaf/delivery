@@ -1,0 +1,143 @@
+/* color theme used */
+.color-gradient{
+    color: #8E2DE2;
+    color: #4A00E0;
+    color: #E8DAFF;
+    color: #AE39DA;
+    color: #EDD06C;
+    
+}
+/* body */
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6em;
+    margin: 0;
+    font-family: Roboto;
+}
+p{
+    line-height: 2em;
+}
+button{
+    outline: 0 !important;
+}
+input{
+    outline: none;
+}
+/* header */
+.header{
+    background: linear-gradient(to right, #8e2de2, #4a00e0); 
+    color: white;
+}
+.bg2{
+    background:url(../image/brands/backg02.png) no-repeat center;
+    
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    height: 100% !important;
+}
+/* navbar */
+.navbar-brand{
+    color: #EDD06C; 
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navbar-brand:hover{
+    color:  #EDD06C;
+}
+.navbar-nav .nav-item{
+    padding: 1rem 1.5rem;
+}
+
+.nav-item a:hover{
+    background:#EDD06C;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    color: black;
+}
+.nav-item .nav-link{
+    color:#E8DAFF;
+}
+
+
+
+
+.bg-nav{
+    background-color: transparent !important;
+}
+body.scrolled .navigation {
+    position: fixed;
+    width: 100%;
+    background:white !important;
+  }
+  
+/* header */
+.txt-bg{
+    color: #EDD06C;
+}
+.btn1{
+    background: #EDD06C !important;
+    outline: none !important;
+    font-weight: 600 !important;  
+}
+.btn1:hover{
+    background-color: #AE39DA !important;
+    color: white;
+    outline: none !important;
+}
+
+/* services  */
+
+.card .icon{
+    height: 95px;
+}
+.services .icon{
+    width: 95px;
+}
+.icon{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services .card{
+    border-radius: 2rem !important;
+    border: none !important;
+}
+/* tracking */
+.tracking{
+    background-color: #e8daff9c;
+}
+/* footer */
+.footer{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: whitesmoke; 
+}
+
+.icon-item{
+    padding-left: 0.5rem;
+    padding-right: 1.3rem;
+    
+}
+.list ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 0.2rem;
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+}
+.list li a:hover{
+    color:  #EDD06C;
+
+}
+
+.copy-right p{
+   margin-bottom: 0px;
+   
+}
+/* contact */
+.contact{
+    background: #E8DAFF;
+}
